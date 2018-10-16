@@ -13,7 +13,6 @@ selectors_all = contents.split()
 selectors = [s for s in selectors_all if s.startswith('.')]
 selectors = list(set(selectors))
 
-
 file.close()
 
 
